@@ -1,0 +1,208 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: unset;
+}
+
+nav {
+    flex-direction: row;
+    justify-content: space-between;
+	background-color: #35D3C7;
+	padding: 20px 5%;
+}
+
+nav ul li {
+	padding-left: 30px; 
+}
+
+ul, li{
+	display:inline;
+}
+
+ul {
+    margin: auto 0;
+}
+
+nav a:link {
+    color:#FFFFFF;
+}
+
+nav a:hover {
+    color:#FFFFFF;
+}
+
+nav a:active {
+    color:#FFFFFF;
+}
+
+nav a:visited {
+    color:#FFFFFF;
+}
+
+a{
+    color:#707070
+}
+h1 {
+	font-size: 45px;
+	color: #35D3C7;	
+}
+
+
+
+.foodContainer {
+	display: flex;
+	justify-content: space-between;
+	padding: 1%;
+    transition: 0.2s;
+}
+
+.foodContainer a{
+	text-decoration: none;
+	width: 45vw;
+}
+
+.itemContainer:hover {
+	background: #e6e6e6;
+}
+.itemContainer {
+	padding: 1%;
+	width: 33%;
+}
+.foodContainer food{
+	padding: 1%;
+	width: 50%;
+}
+
+.itemContainer img {
+	width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin: auto;
+
+}
+
+.food {
+    padding: 1%;
+	display: flex;
+    flex-direction: column;
+}
+
+.foodDescription {
+	color:#FFFFFF;
+	background-color: #35D3C7;
+	padding: 1% 6%;
+}
+
+.foodDescription h4{
+	color:#FFFFFF;
+	background-color: #35D3C7;
+}
+
+section {
+	padding: 2% 5%;
+}
+
+.searchbar input {
+    border-radius: 100px;
+    width: 50vw;
+    height: 25px;
+    padding: .5%;
+}
+
+.searchbar textarea{
+        background: #FFFFFF;
+}
+
+.logo{
+    width:auto;
+    height:65px;
+}
+
+section {
+	padding: 2% 5%;
+}
+
+.chooselogin a{
+    color: #707070
+
+}
+.login {
+	display: flex;
+    padding: 2%;
+    justify-content: center;
+    margin: 1% 25%;
+}
+
+input, textarea {
+    background: #f7fafb;
+    border-radius: 100px;
+	width: -webkit-fill-available;
+	padding: 1%;
+	border: none;
+	font-size: 1em;
+    
+	
+}
+
+form fieldset, form {
+	display: flex;
+    flex-direction: column;
+    justify-content: right;
+    padding:5%;
+    border-radius:10px;
+    border-width:1px;
+    border-color: #707070;
+
+}
+
+form fieldset label {
+	font-size: 0.8em;
+}
+
+
+button {
+    padding: 10px 20px;
+    background:  #35D3C7;
+    color: white;
+	transition: 0.2s;
+	margin-left: auto; 
+    font-size: 1em;
+    border-radius:10px;
+    border:none;
+    
+}
+
+button:hover{
+	background:  rgb(33, 167, 155);
+}
+
+.chefmenu{ 
+  background-color: #707070;
+  color:white;
+  width: 200px;
+  height:100vh;
+  top:59px;
+  left: 0;
+  bottom: 0;
+  align-items: center;
+  padding: 20px 20px 20px 20px
+}
+
+.chefOptions button{
+    margin:5%;
+    width:100%;
+}
+
+.chefOptions a{
+   color:white;
+   text-decoration: none
+}
+
+.profileimg{
+    width: 100%
+}
+
+.posts{
+    margin-top: 100px;
+    margin-left: 300px; /* Add a top margin to avoid content overlay */
+}
+
