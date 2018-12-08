@@ -7,7 +7,7 @@ $id = $_SESSION['id'];
 
 if($_SESSION['logged-in'] !== true){
 	echo("You are not allowed to view this page");
-	?><a href="login.html">Go to login</a><?php
+	?><a href="login.php">Go to login</a><?php
 }else{
 
 
